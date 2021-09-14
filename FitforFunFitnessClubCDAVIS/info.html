@@ -3,8 +3,117 @@
   <head>
     <meta charset="utf-8">
     <title>Information</title>
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
+    <div class="sidenav">
+      <a href="index.html">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="info.html">Info</a>
+    </div>
+
+    <!-- Page content -->
+<div class="main">
+    <div class="container">
+      <form method="get" action="thankyou.html">
+        <h1>CLASS SIGN-UP</h1>
+        <fieldset >
+          <legend>
+            Contact Information
+          </legend>
+          <label for="fname">
+            Name:
+            <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+          </label>
+          <label for="lname">
+            Last Name:
+            <input id="lname" type="text" name="lname" required placeholder="Last Name">
+          </label>
+          <label for="email">
+            Email:
+            <input type="email" name="email" id=email required placeholder="Email">
+          </label>
+          <label for="phone">
+            Email:
+            <input type="tel" name="phone" id=phone required placeholder="Phone Number">
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Class Application
+          </legend>
+          <label for="contacts">Best Method of Contact:
+            <select name="contacts" id="contacts">
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+              <option value="Owl">Owl</option>
+              <option value="Alex Trebek">Alex Trebek</option>
+            </select>
+          </label>
+          <label>
+            <select name="month">
+               <option value="01">Cross Training</option>
+               <option value="02">Sprint</option>
+               <option value="03">Spin</option>
+               <option value="04">BodyPump</option>
+               <option value="05">BodyCombat</option>
+               <option value="06">Step Interval</option>
+               <option value="07">July</option>
+               <option value="08">Advanced Cross Training</option>
+               <option value="09">MixxedFit</option>
+               <option value="10">Zumba</option>
+            </select>
+          </label>
+          <select name="day">
+            <option value="01">Mondays</option>
+            <option value="02">Tuesdays</option>
+            <option value="03">Wednesdays</option>
+            <option value="04">Thursdays</option>
+            <option value="05">Fridays</option>
+            <option value="06">Saturdays</option>
+       </select>
+            <label for="button1">AM</label>
+            <input type="radio" id="button1" name="timeslot" value="AM">
+            <label for="button2">PM</label>
+            <input type="radio" id="button2" name="timeslot" value="PM">
+        </fieldset>
+
+        <fieldset class="checkbox">
+          <legend>
+            Common Health Concerns
+          </legend>
+          <label for="box0">| Smoker</label>
+          <input type="checkbox" name="Smoker" id="box0">
+          <label for="box1">| Diabetic</label>
+          <input type="checkbox" name="Diabetic" id="box1">
+          <label for="box2">| Blood borne Illness</label>
+          <input type="checkbox" name="Bloodborn" id="box2">
+          <label for="box3">| Athsma</label>
+          <input type="checkbox" name="Athsma" id="box3">
+          <label for="box4">| Covid Vaccinated</label>
+          <input type="checkbox" name="CovidVac" id="box4">
+          <label for="box5">| Other</label>
+          <input type="checkbox" name="Other" id="box5">
+          |
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Additional Info / Health Concerns / Other
+          </legend>
+          <textarea name="Additional Info" rows="8" cols="80"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Submit" class="submit">
+      </form>
+</div>
+</div>
 
   </body>
 </html>
+<!--
+NAME COREY DAVIS
+CLASS WEB DEVELOPMENT M/W FALL 2021 11AM
+DATE 09/13/2021
+-->
