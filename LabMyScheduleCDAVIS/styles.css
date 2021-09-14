@@ -1,0 +1,57 @@
+body{
+  background-image: url("schedule.png");
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: white;
+}
+h1{
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+}
+p{
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2px 2px white;
+}
+.tg  {
+  border-collapse:collapse;
+  border-spacing:0;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: auto;
+}
+thead{
+  background-color: rgba(155, 155, 155, 0.7);
+  font-weight: bolder;
+}
+.tg td{
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+.tg th{
+  border-color:black;
+  border-style: groove;
+  border-width:4px;
+  font-family:Arial, sans-serif;
+  font-size:24px;
+  font-weight:bolder;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+  text-decoration-color: white;
+}
+.tg .tablecell{
+  text-align:left;
+  vertical-align:top
+}
+/*
+NAME COREY DAVIS
+CLASS WEB DEVELOPMENT M/W FALL 2021 11AM
+DATE 09/13/2021
+*/
