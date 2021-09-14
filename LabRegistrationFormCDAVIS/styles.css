@@ -1,0 +1,39 @@
+body {
+  background-image: url("moneyhacker.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  background-color: rgba(100, 200, 100, .5);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.submit {
+  width: initial;
+  position: initial;
+}
+select{
+  margin: 2px;
+}
+.checkbox{
+  text-align: left;
+}
+.timeslot{
+  width: 50ex;
+}
+fieldset{
+  display: block;
+}

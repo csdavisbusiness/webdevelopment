@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <H2>Advising Appointment</H2>
+  <div class="container">
+    <form method="get" action="thankyou.html">
+      <h1>Form with GET Request</h1>
+
+      <fieldset >
+        <legend>
+          Contact Information
+        </legend>
+        <label for="fname">
+          Name:
+          <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+        </label>
+        <label for="lname">
+          Last Name:
+          <input id="lname" type="text" name="lname" required placeholder="Last Name">
+        </label>
+        <label for="email">
+          Email:
+          <input type="email" name="email" id=email required placeholder="Email">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          Reservation Request
+        </legend>
+        <label for="Instructors">Choose an Instructor:
+          <select name="Instructors" id="Instructors">
+            <option value="Kristen Markley">Kristen Markley</option>
+            <option value="Tiffany Ford">Tiffany Ford</option>
+            <option value="Renee Riley">Renee Riley</option>
+            <option value="Alex Trebek">Alex Trebek</option>
+          </select>
+        </label>
+        <label>
+          <select name="month">
+             <option value="01">January</option>
+             <option value="02">February</option>
+             <option value="03">March</option>
+             <option value="04">April</option>
+             <option value="05">May</option>
+             <option value="06">June</option>
+             <option value="07">July</option>
+             <option value="08">August</option>
+             <option value="09">September</option>
+             <option value="10">October</option>
+             <option value="11">November</option>
+             <option value="12">December</option>
+          </select>
+        </label>
+        <select name="day">
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+          <option value="04">4</option>
+          <option value="05">5</option>
+          <option value="06">6</option>
+          <option value="07">7</option>
+          <option value="08">8</option>
+          <option value="09">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+     </select>
+          <label for="button1">AM</label>
+          <input type="radio" id="button1" name="timeslot" value="AM">
+          <label for="button2">PM</label>
+          <input type="radio" id="button2" name="timeslot" value="PM">
+      </fieldset>
+
+      <fieldset class="checkbox">
+        <legend>
+          Classes You Would Like to Take Next Semester
+        </legend>
+        <label for="box0">Java</label>
+        <input type="checkbox" name="Java" id="box0">
+        <label for="box1">C#</label>
+        <input type="checkbox" name="C#" id="box1">
+        <label for="box2">Web Development</label>
+        <input type="checkbox" name="WebDev" id="box2">
+        <label for="box3">Database</label>
+        <input type="checkbox" name="Database" id="box3">
+        <label for="box4">System Analysis</label>
+        <input type="checkbox" name="SystemAnalysisDesign" id="box4">
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          Additional Info
+        </legend>
+        <textarea name="Additional Info" rows="8" cols="80"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Submit" class="submit">
+    </form>
+  </div>
+
+</body>
+
+</html>
+<!--
+NAME: COREY SCOTT DAVIS
+CLASS: WEB DEVELOPMENT 1, M/W 11AM
+DATE: 09/13/2021
+-->
